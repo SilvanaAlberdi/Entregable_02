@@ -29,7 +29,7 @@ public class PlayerHP : MonoBehaviour
             }
             else
             {
-                Debug.Log("Vas bien de vida, tienes {playerHP} de puntos de vida");
+                Debug.Log($"Vas bien de vida, tienes {playerHP} de puntos de vida");
             }
         }
         if (isGameOver == true)
